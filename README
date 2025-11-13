@@ -1,0 +1,43 @@
+# 🚀 End-to-End PySpark ETL Pipeline
+
+This project demonstrates a **complete ETL (Extract, Transform, Load)** workflow built using **Apache PySpark**.  
+The pipeline performs **data ingestion from CSV**, applies **transformations and aggregations**, and generates **cleaned insights** ready for analytics and reporting.
+
+---
+
+## 📁 Project Overview
+
+The **End-to-End PySpark ETL Pipeline** is designed to automate the process of reading raw CSV data, transforming it using PySpark, and producing high-quality structured datasets for downstream analytics.
+
+This project showcases real-time, production-style ETL logic, and demonstrates how to work with distributed data efficiently using PySpark in a **free-tier, local environment (MacOS)**.
+
+---
+
+## 🧩 Architecture
+
+```plaintext
+                ┌────────────────────────────┐
+                │        Raw Data (CSV)      │
+                └──────────────┬─────────────┘
+                               │
+                               ▼
+                  ┌──────────────────────┐
+                  │  Extract (PySpark)   │
+                  │  - Read CSV          │
+                  │  - Schema Validation │
+                  └──────────┬───────────┘
+                             │
+                             ▼
+                  ┌──────────────────────┐
+                  │ Transform (PySpark)  │
+                  │ - Data Cleaning      │
+                  │ - Aggregation        │
+                  │ - Business Logic     │
+                  └──────────┬───────────┘
+                             │
+                             ▼
+                  ┌──────────────────────┐
+                  │   Load (PySpark)     │
+                  │ - Write to Output    │
+                  │ - Save as Parquet/CSV│
+                  └──────────────────────┘
