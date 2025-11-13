@@ -1,0 +1,14 @@
+ETL_Project/
+├── Scripts/
+│   ├── Extract.py
+│   ├── Transform.py
+│   └── Load.py
+├── data/
+│   ├── input/
+│   │   └── CallcenterInsight.csv
+│   └── output/
+│       └── cleaned_data.csv
+├── etl_project.py
+├── CrosscheckOutputFile.py
+├── requirements.txt
+└── README.md
