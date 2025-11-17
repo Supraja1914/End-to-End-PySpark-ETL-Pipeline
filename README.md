@@ -72,3 +72,9 @@ Managing file I/O operations on macOS
 Structuring Python code for modular and reusable data workflows
 
 Setting up Git and pushing a project from local machine to GitHub
+
+# Git Problems I faced and How I resolved:
+<img width="1536" height="1024" alt="GIT" src="https://github.com/user-attachments/assets/30fb98cc-bc44-4546-953e-537fc898c6af" />
+
+
+
