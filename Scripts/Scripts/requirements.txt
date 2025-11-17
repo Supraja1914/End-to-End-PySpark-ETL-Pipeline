@@ -1,0 +1,18 @@
+pyspark==3.5.1
+pandas==2.2.2
+# === Core ETL Dependencies ===
+pyspark==3.5.1
+pandas==2.2.2
+numpy==1.26.4
+findspark==2.0.1
+
+# === Development & Testing Tools ===
+pytest==8.2.1           # For testing your ETL pipeline logic
+black==24.4.2           # For code formatting (PEP8 standard)
+flake8==7.1.1           # For linting and code quality checks
+python-dotenv==1.0.1    # To handle environment variables securely (optional for DB connections)
+
+# === Optional Utilities ===
+jupyter==1.0.0          # For quick data exploration or documentation notebooks
+matplotlib==3.9.1       # Optional: visual checks or debugging
+
